@@ -1,0 +1,4 @@
+name: Test Docker Action in a dirty workspace
+runs:
+  using: docker
+  image: Dockerfile
