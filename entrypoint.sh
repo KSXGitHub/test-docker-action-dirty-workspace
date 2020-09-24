@@ -10,3 +10,6 @@ echo '::endgroup::'
 echo '::group::Content of HELLO-WORLD.txt'
 cat HELLO-WORLD.txt
 echo '::endgroup::'
+
+echo 'Creating LIST.txt'
+ls -al . >LIST.txt

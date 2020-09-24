@@ -8,3 +8,7 @@ jobs:
       - run: echo Hello World > HELLO-WORLD.txt
       - name: Run the Docker Action
         uses: ./
+      - name: Inspect folder
+        run: ls -al .
+      - name: Inspect LIST.txt
+        run: cat LIST.txt
